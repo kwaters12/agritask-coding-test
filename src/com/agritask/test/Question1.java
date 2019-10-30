@@ -9,7 +9,7 @@ public class Question1 {
         System.out.println("Enter Math Expression (Only addition and multiplication, no parentheses):");
 
         String expression =  userInput.nextLine();
-        System.out.println("The evaluated math expression is: " + evaluateExpression(expression));
+        System.out.println("The evaluated math expression is: " + evaluateExpression(expression) + "\n");
         getInput();
     }
 
@@ -70,5 +70,4 @@ public class Question1 {
 
         return returnValue;
     }
-
 }
